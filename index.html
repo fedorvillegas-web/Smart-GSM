@@ -361,11 +361,12 @@ color:#9ca3af;
 <div id="filtros">
 <button onclick="filtrar('')" class="activo">Todos</button>
 <button onclick="filtrar('apple')">Apple</button>
-<button onclick="filtrar('xiaomi')">Xiaomi</button>
-<button onclick="filtrar('honor')">Honor</button>
-<button onclick="filtrar('realme')">Realme</button>
-<button onclick="filtrar('tecno')">Tecno</button>
+<button onclick="filtrar('honor')">Honor</button> 
 <button onclick="filtrar('infinix')">Infinix</button>
+<button onclick="filtrar('realme')">Realme</button>
+<button onclick="filtrar('samsung')">Samsung</button>
+<button onclick="filtrar('tecno')">Tecno</button>
+<button onclick="filtrar('xiaomi')">Xiaomi</button>
 <button onclick="toggleAgotados(this)">Ocultar agotados</button>
 </div>
 </header>
@@ -413,6 +414,7 @@ let productos=[
 ["Apple Iphone 15 128GB",627,false,"img/iphone15.jpg"],
 ["Apple Iphone 16 128GB",720,false,"img/iphone16.jpg"],
 ["Apple Iphone 17 256GB",914,true,"img/iphone17.jpg"],
+["Apple Iphone 17E 256GB",670,false,"img/iphone17e.jpg"],  
 ["Apple Iphone 17 Pro Max 256GB",1415,false,"img/iphone17promax.png"],
 ["Apple Iphone Air 256GB",935,false,"img/iphoneair.jpg"],
 
@@ -450,6 +452,8 @@ let productos=[
 ["Realme Note 70 4/128",105,false,"img/realmenote70.png"],
 ["Realme Note 70 8/256",134,true,"img/realmenote70.png"],
 
+["Samsung Galaxy S26 Ultra 5G 12/512",1200,false,"img/samsungs26ultra.png"],
+
 ["Tecno Camono 50 Pro 8/256",300,false,"img/camon50pro.png"],  
 ["Tecno Pova 7 4G 8/256",184,true,"img/pova74g.png"],
 ["Tecno Pova 7 5G 8/256",228,true,"img/pova75g.png"],
@@ -459,6 +463,8 @@ let productos=[
 
 ["Xiaomi Pad 7 8/256",340,false,"img/pad7.png"],
 ["Xiaomi Pad 7 Pro 8/256",445,true,"img/pad7pro.png"],
+["Xiaomi Pad 8 Pro 8/256",530,false,"img/pad8pro8.png"],
+["Xiaomi Pad 8 Pro 12/512",635,false,"img/pad8pro12.png"],  
 ["Xiaomi Pad Mini 12/512",475,false,"img/padmini.png"],
 ["Xiaomi Poco F8 Pro 12/256",505,false,"img/pocof8pro256.png"],
 ["Xiaomi Poco F8 Ultra 12/256",705,true,"img/pocof8ultra12.png"],
@@ -472,9 +478,11 @@ let productos=[
 ["Xiaomi Poco Pad X1 8/512",345,false,"img/pocopadx1.png"],
 ["Xiaomi Poco X7 Pro 5G 12/512",335,false,"img/pocox7pro12.png"],
 ["Xiaomi Poco X7 Pro 5G 8/256",278,true,"img/xiaomipocox7pro5g.png"],
+["Xiaomi Poco X8 Pro 8/512",349,false,"img/pocox8pro12.png"], 
 ["Xiaomi Poco X8 Pro 12/512",380,false,"img/pocox8pro12.png"],
 ["Xiaomi Poco X8 Pro Iron Man 12/512",465,false,"img/pocox8pro12ironman.png"],
-["Xiaomi Poco X8 Pro 8/256",318,false,"img/pocox8pro8.png"],
+["Xiaomi Poco X8 Pro 8/256",320,false,"img/pocox8pro8.png"],
+["Xiaomi Poco X8 Pro Max 12/256",440,false,"img/pocox8promax.png"],
 ["Xiaomi Poco X8 Pro Max 12/512",480,false,"img/pocox8promax.png"],
 
 ["Xiaomi Redmi 15C 4/128",116,false,"img/redmi15c4.png"],
@@ -495,8 +503,8 @@ let productos=[
 
 ["Xiaomi Redmi Pad 2 4/128",155,false,"img/redmipad24.png"],
 ["Xiaomi Redmi Pad 2 4G 8/256",225,false,"img/redmipad24g.png"],
-["Xiaomi Redmi Pad 2 8/256",205,true,"img/redmipad24.png"],
-["Xiaomi Redmi Pad 2 Pro 8/256",291,true,"img/xiaomiredmipad2pro.png"],
+["Xiaomi Redmi Pad 2 8/256",210,false,"img/redmipad24.png"],
+["Xiaomi Redmi Pad 2 Pro 8/256",300,false,"img/xiaomiredmipad2pro.png"],
 ["Xiaomi Redmi Pad Pro 5G 8/256",285,true,"img/xiaomipadpro5g.png"],
 ["Xiaomi Redmi Pad Pro 8/256",231,true,"img/xiaomipadpro5g.png"],
 ["Xiaomi Redmi Pad Se 8/256",170,true,"img/xiaomiredmipadse.png"]
